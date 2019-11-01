@@ -56,3 +56,11 @@ body {
 .navbar-brand p span {
 	vertical-align: middle;
 }
+
+#header-nav button.navbar-toggler {
+	border: 1px solid brown;
+}
+
+#header-nav button.navbar-toggler {
+	clear: both;
+}
