@@ -12,6 +12,10 @@ body {
 	border:0;
 }
 
+#collapsable-navbar {
+	float: right;
+}
+
 #logo-img {
 	background-image: url('../pics/SchrodCatDice.jpg');
 	background-size: 100%; 
@@ -202,4 +206,41 @@ body {
 	}
 } 
 
+/** Introduction page ********************************/
+.month {
+	margin-bottom: 10px;
+}
+.month-pic {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	box-shadow: 0px 0px 6px 6px #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-top: 10px;
+}
+.month-pic div {
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	background-color: #FFDB58;
+	text-align: center;
+	color: #61122f;
+	font-weight: bold;
+	font-size: 0.9em;
+	opacity: 0.6;
+}
 
+.month-name {
+	color: #FFDB58;
+	font-weight: bold;
+}
+.month-target {
+	padding-right: 20px;
+}
+h3.month-target-title {
+	margin: 10px 0 10px 0;
+}
+.month-target-info {
+	text-align: left;
+}
