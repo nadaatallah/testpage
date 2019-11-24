@@ -39,3 +39,16 @@ document.addEventListener("DOMContentLoaded",
 					.addEventListener("click", answer2);
 	}
 	);
+
+// the collapse function is used from bootstrap but it's a plugin to jquery
+$(function () {   // same as document.addEventListener("DOMContentLoaded", .) 
+//same as document.querySelector("menubutton").addEventListener("blur",actionfunction)
+	$("#menubutton").blur(function(event) {
+		var screenWidth = window.innerWidth;
+		//console.log(screenWidth);
+		if (screenWidth < 1200) {
+			$("#collapsable-navbar").collapse('hide');
+		}
+	});
+});
+
